@@ -110,8 +110,14 @@ Once we understand all this, we can build our transaction and create the asset.
 The total coin issuance is 1 000 000, so I declare that there are one million POPcoin units.
 Then I declare that the number of decimals to be used for accounting purposes is 0, i. e. I do not use as sats or wei or any other subdivision.
 It’s worth remembering that this is just a fun demo currency, and POPcoin accounts are not frozen, they don’t need to do any whitelist before someone can make a transaction, they just need to participate (https://developer.algorand.org/docs/features/asa/#receiving-an-asset).
-Then I name the asset and its units and instead of a link to a whitepaper I load the work on my github account. This transaction defines a new asset on Algorand’s blockchain.
+Then I name the Asset and its units and instead of a link to a whitepaper I load the sample project on my github account.
+
+Let’s sign and send the transaction.
 ![Schermata 2021-06-26 alle 12 01 29](https://user-images.githubusercontent.com/73669069/123509522-49593480-d676-11eb-8e5f-ab908861db0b.png)
+This transaction defines a new asset on Algorand’s blockchain.
+
+
+Ps: If you use the same private and public key for this demo you can see the asset immediately and also the transaction can be found on Algorand MainNet.
 
 
 
