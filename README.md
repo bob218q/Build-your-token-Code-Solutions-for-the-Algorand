@@ -99,12 +99,23 @@ fmt.Printf("Transaction successful with ID: %s\n", sendResponse.TxID)
 
 In line 23 we give credits to purestake for their work.
 In row 25-26 we import arguments for creating and communicating on the network.
+![Schermata 2021-06-26 alle 11 43 43](https://user-images.githubusercontent.com/73669069/123509096-e1a1ea00-d673-11eb-9851-8382447f9980.png)
 If it is not clear I attach documents (https://github.com/PureStake/api-examples).
 For this demonstration we will connect to the PureStake node instead of algodClient.
 It would be more appropriate to use environment variables to manage keys and next you will see a mnemonic address and the corresponding public address.
 From line 33-58, at the beginning there are some settings like executing queries on recent network information, and also pay close attention to the step where you convert the mnemonic backup phrase to a private key.
 The private key will be used to sign and authorize the transaction.
 Once we understand all this, we can build our transaction and create the asset.
+![Schermata 2021-06-26 alle 11 45 42](https://user-images.githubusercontent.com/73669069/123509134-1f9f0e00-d674-11eb-90e1-dacf416e2dd4.png)
+The total coin issuance is 1 000 000, so I declare that there are one million POPcoin units.
+Then I declare that the number of decimals to be used for accounting purposes is 0, i. e. I do not use as sats or wei or any other subdivision.
+It’s worth remembering that this is just a fun demo currency, and POPcoin accounts are not frozen, they don’t need to do any whitelist before someone can make a transaction, they just need to participate (https://developer.algorand.org/docs/features/asa/#receiving-an-asset).
+Then I name the asset and its units and instead of a link to a whitepaper I load the work on my github account. This transaction defines a new asset on Algorand’s blockchain.
+![Schermata 2021-06-26 alle 12 01 29](https://user-images.githubusercontent.com/73669069/123509522-49593480-d676-11eb-8e5f-ab908861db0b.png)
+
+
+
+
 
 
 
