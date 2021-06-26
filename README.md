@@ -120,7 +120,7 @@ This transaction defines a new asset on Algorand’s blockchain.
 ![popcoin account](https://user-images.githubusercontent.com/73669069/123519103-90ace880-d6a9-11eb-918f-e5d332837854.png)
 
 If you use the same private and public key for this demo you can see the asset immediately and also the transaction can be found on Algorand MainNet.
-That’s really it! I hope I have created some useful content and thank you for your patience.
+That’s really it! I hope I have created useful content and thank you for your patience.
 
 
 
