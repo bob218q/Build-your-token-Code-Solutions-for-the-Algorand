@@ -5,6 +5,8 @@ Title: BUILD YOUR TOKEN
 
 CUSTOMIZE,TRANSFORM AND SHARE IT YOUR TOKEN
 
+Upgrades have been coming for a long time (Algorand 2.0 https://www.algorand.com/resources/news/algorand-foundation-launches-protocol-upgrade-2.0) but many people are still out of this world, and the aim of this project is to bring new creators closer by teaching them how to build their own currency through a few lines of code, actually entering the Algorand world and taking their first steps in its blockchain. They will be able to share their personalized currency with their friends and with people they will meet in the Algorand world.
+
 package main
 
 import (
