@@ -57,7 +57,7 @@ func main() {
 	assetReserveAddress := "" //there is no reserve of assets
 	addressWithFreezingPrivileges := ownerAddress // can select accounts to be frozen to receive and send
 	addressWithClawbackPrivileges := ownerAddress // this account is allowed to clawback coins from others
-	assetUnitNamep := "PoPcoin"
+	assetUnitNamep := "POPcoin"
 	popassetName := "POPcoin"
 	assetMetadataHash := "" //There is no commitment hash is a simple example. . . .
 	tx, err := transaction.MakeAssetCreateTxn(ownerAddress, txParams.Fee, txParams.LastRound, txParams.LastRound+10, nil, txParams.GenesisID, base64.StdEncoding.EncodeToString(txParams.GenesisHash),
