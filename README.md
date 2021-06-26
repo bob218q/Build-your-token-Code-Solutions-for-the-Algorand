@@ -117,10 +117,10 @@ Let’s sign and send the transaction.
 ![Schermata 2021-06-26 alle 12 01 29](https://user-images.githubusercontent.com/73669069/123509522-49593480-d676-11eb-8e5f-ab908861db0b.png)
 
 This transaction defines a new asset on Algorand’s blockchain.
-
-
+![popcoin account](https://user-images.githubusercontent.com/73669069/123519103-90ace880-d6a9-11eb-918f-e5d332837854.png)
 
 Ps: If you use the same private and public key for this demo you can see the asset immediately and also the transaction can be found on Algorand MainNet.
+
 
 
 
